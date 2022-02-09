@@ -4,7 +4,7 @@ This is a project which uses Python to realize algorithm for Super Stable Matchi
 
 Here is the example,
 
-![Result_Example](/home/blackparure/Pictures/Result_Example.png)
+![Result_Example](/Result_Example.png)
 
 ## Getting Start
 
