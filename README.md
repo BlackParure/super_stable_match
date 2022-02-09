@@ -95,8 +95,8 @@ After that we will get a result contains pairs like that,
 As we get the final result for the super stable algorithm, we use this pair list to generate a graph with the help of networkX,
 
 ```python
-G.add_node(index, name=person_A, man=person_A, woman=person_B)
-G.add_node(index+1, name=person_B, man=person_A, woman=person_B)
+G.add_node(index, name=pa, man=pa, woman=pb, bipartite=0)
+G.add_node(index+1, name=pb, man=pa, woman=pb, bipartite=1)
 G.add_edge(index, index+1)
 ```
 
