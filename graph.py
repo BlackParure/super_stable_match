@@ -39,8 +39,8 @@ def create_matching_graph():
     index = 0
     for i in res:
         [pa, pb] =  i          
-        G.add_node(index, name=pa, man=pa, woman=pb)
-        G.add_node(index+1, name=pb, man=pa, woman=pb)
+        G.add_node(index, name=pa, man=pa, woman=pb, bipartite=0)
+        G.add_node(index+1, name=pb, man=pa, woman=pb, bipartite=1)
         G.add_edge(index, index+1)
         index += 2
     graph_dict = graph_to_dict(G)
